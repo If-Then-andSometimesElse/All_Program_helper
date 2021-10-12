@@ -1,5 +1,0 @@
-#prints only the #s that are divisible by 3 in the range of 1-15(incl)
-my_list = range(16);
-filtered = filter(lambda x: x % 3 == 0, my_list);
-for s in filtered:
-    print (s)
